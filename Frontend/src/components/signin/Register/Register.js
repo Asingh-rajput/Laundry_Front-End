@@ -33,7 +33,7 @@ const Register = () => {
       formData.append("email",email)
       formData.append("password",password)
       console.log(formData);
-      const res = await fetch("http://localhost:8080/signin/register",{
+      const res = await fetch("https://lc-backend-kh8r.onrender.com/signin/register",{
         method: 'POST',
         headers:{
           "Content-type": "application/json",

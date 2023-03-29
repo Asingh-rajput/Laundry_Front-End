@@ -19,7 +19,7 @@ const Signin = ({ setusername, setemail }) => {
       return;
     }
 
-    const res = await fetch('http://localhost:8090/signin/login', {
+    const res = await fetch('https://lc-backend-kh8r.onrender.com/signin/login', {
       method: 'POST',
       headers: {
         'Content-type': 'application/json',
